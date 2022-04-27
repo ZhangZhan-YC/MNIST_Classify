@@ -21,7 +21,7 @@ class Net(torch.nn.Module):
         x = self.output(x)
         return x
 
-net = Net(784, 16, 16, 10)
+net = Net(784, 500, 300, 10)
 # print(net)
 
 # 优化与损失
